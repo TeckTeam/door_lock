@@ -220,7 +220,7 @@ class Display:
 
     def delayMicroseconds(self, microseconds):
         seconds = microseconds / float(1000000)	# divide microseconds by 1 million for seconds
-        sleep(seconds)
+        time.sleep(seconds)
 
 
     def pulseEnable(self):
