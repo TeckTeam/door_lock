@@ -50,7 +50,7 @@ def setup():
 
 def destroy():  
 	GPIO.cleanup()             # Release resource  
-status = str(sys.argv[2])
+status = str(sys.argv[1])
 print(status)
 if __name__ == '__main__':     # Program start from here  
     setup()  
